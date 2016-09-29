@@ -10,6 +10,7 @@ Architecture: armhf
 Recommends: alsa-utils,
             apt-xapian-index,
             ark,
+            artwork-lnf-netrunner-core,
             base-files (>= 9),
             bluedevil,
             bootini,
