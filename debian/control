@@ -28,7 +28,7 @@ Recommends: alsa-utils,
             dnsutils,
             dolphin,
             expanding-icons-taskmanager,
-            ffmpegthumbnailer,
+            ffmpegthumbs,
             firefox-plasma,
             gstreamer1.0-plugins-bad,
             gstreamer1.0-plugins-ugly,
@@ -136,7 +136,10 @@ Depends: console-data,
          xserver-xorg,
          xserver-xorg-video-all,
          zram-config
+Breaks: kffmpegthumbnailer (<< 2.1.0+p8+git20161003.1141)
 Conflicts: kubuntu-desktop, plasma-netbook
-Replaces: kubuntu-desktop, plasma-netbook
+Replaces: kffmpegthumbnailer (<< 2.1.0+p8+git20161003.1141),
+          kubuntu-desktop,
+          plasma-netbook
 Description: Meta package for the Netrunner ARM environment
    Meta package for the Netrunner ARM environment
