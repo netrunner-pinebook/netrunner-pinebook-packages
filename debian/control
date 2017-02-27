@@ -138,7 +138,7 @@ Depends: console-data,
          xserver-xorg-input-mouse,
          xserver-xorg-input-synaptics,
          xserver-xorg-video-all,
-         xserver-xorg-video-mali-450,
+         xserver-xorg-video-armsoc,
          zram-config
 Breaks: kffmpegthumbnailer (<< 2.1.0+p8+git20161003.1141)
 Conflicts: kubuntu-desktop, plasma-netbook
