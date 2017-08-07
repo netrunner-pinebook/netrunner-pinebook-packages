@@ -5,7 +5,19 @@ Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
+Package: pinebook-netrunner-core
+Architecture: arm64
+Recommends: pine64-netrunner-core-common
+Description: Meta package for the Netrunner Pinebook ARM environment
+   Meta package for the Netrunner Pinebook ARM environment
+
 Package: pine64-netrunner-core
+Architecture: arm64
+Recommends: novnc, pine64-netrunner-core-common, x11vnc
+Description: Meta package for the Netrunner Pinebook ARM environment
+   Meta package for the Netrunner Pinebook ARM environment
+
+Package: pine64-netrunner-core-common
 Architecture: arm64
 Recommends: alsa-utils,
             apt-xapian-index,
@@ -73,7 +85,6 @@ Recommends: alsa-utils,
             netrunner-core-settings,
             netrunner-core-settings-desktop,
             netrunner-default-settings,
-            novnc,
             odroid-boot-services,
             okular,
             okular-extra-backends,
@@ -114,7 +125,6 @@ Recommends: alsa-utils,
             u-boot-tools,
             unrar,
             user-manager,
-            x11vnc,
             xdg-user-dirs,
             xvfb,
             yakuake,
