@@ -1,2 +1,2 @@
-# netrunner-core
-A metapackage for installing the Netrunner Core specific packages
+# netrunner-pinebook-packages
+A metapackage for installing the Netrunner Pinebook specific packages
