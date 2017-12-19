@@ -66,6 +66,7 @@ Recommends: artwork-lnf-netrunner-pinebook,
             smplayer,
             smtube,
             thunderbird-plasma,
+            transmission-qt,
             xul-ext-lightning
 Description: Meta package for the Netrunner Pinebook ARM environment
    Meta package for the Netrunner Pinebook ARM environment
