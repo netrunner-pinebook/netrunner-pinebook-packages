@@ -66,7 +66,6 @@ Recommends: artwork-lnf-netrunner-pinebook,
             qml-module-org-kde-games-core,
             ring-kde,
             smplayer,
-            smtube,
             thunderbird-plasma,
             transmission-qt,
             xul-ext-lightning
