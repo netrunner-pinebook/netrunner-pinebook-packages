@@ -60,6 +60,7 @@ Recommends: artwork-lnf-netrunner-pinebook,
             netrunner-pinebook-desktop-settings,
             netrunner-pinebook-firefox-preload,
             netrunner-pinebook-settings-desktop,
+            netrunner-settings-firefox-pinebook
             plasma-discover,
             psmisc,
             pulseaudio-module-bluetooth,
