@@ -59,7 +59,6 @@ Recommends: artwork-lnf-netrunner-pinebook,
             marble,
             netrunner-pinebook-calamares,
             netrunner-pinebook-desktop-settings,
-            netrunner-pinebook-firefox-preload,
             netrunner-pinebook-settings-desktop,
             netrunner-settings-firefox-pinebook
             plasma-discover,
