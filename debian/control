@@ -7,7 +7,8 @@ Standards-Version: 3.7.2
 
 Package: netrunner-pinebook-packages
 Architecture: arm64
-Depends: netrunner-pine64-packages
+Depends: netrunner-pine64-packages,
+         firefox (= 1:57.0.4-1+20180315+1803)
 Recommends: artwork-lnf-netrunner-pinebook,
             artwork-wallpapers-netrunner-pinebook,
             audacious,
@@ -16,7 +17,6 @@ Recommends: artwork-lnf-netrunner-pinebook,
             cheese,
             cifs-utils,
             ffmpegthumbnailer,
-            firefox (= 1:57.0.4-1+20180315+1803),
             fonts-droid-fallback,
             fonts-noto-hinted,
             fonts-roboto,
